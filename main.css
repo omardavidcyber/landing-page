@@ -20,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top: 14px;
+    margin-bottom: 88px;
 }
 
 .logo {
@@ -35,8 +36,56 @@ nav {
     align-items: center;
 }
 
-nav a {
+nav a,
+.hero-text {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+nav a {
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding-bottom: 88px;
+    line-height: 1.6;
+}
+
+.hero > div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    width: 60%;
+    line-height: 0.9;
+}
+
+.hero-text {
+    width: 80%;
+}
+
+.hero-cta {
+    color: #f9faf8;
+    background-color: #3882f6;
+    text-decoration: none;
+    padding: 10px 24px;
+    display: inline-block;
+    border-radius: 7px;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+.hero-img {
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-color: #888888;
 }
