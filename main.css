@@ -154,3 +154,33 @@ main {
     font-weight: bold;
     text-align: right;
 }
+
+.cta {
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding: 48px 150px;
+    margin: 92px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta-text {
+    color: white;
+    font-size: 14px;
+}
+
+.cta-btn {
+    text-decoration: none;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 32px;
+    border-radius: 11px;
+}
