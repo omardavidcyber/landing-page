@@ -6,3 +6,37 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.wrapper {
+    max-width: 1266px;
+    margin: 0 auto;
+}
+
+.dark-background-wrapper {
+    background-color: #1f2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+nav a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
