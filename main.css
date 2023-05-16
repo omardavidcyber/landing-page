@@ -89,3 +89,41 @@ nav a {
     height: 250px;
     background-color: #888888;
 }
+main {
+    margin-top: 42px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info-card-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 11px;
+    margin-bottom: 14px;
+}
+
+.info-card-text {
+    width: 50%;
+    line-height: 1.6;
+    font-size: 14px;
+    text-align: center;
+}
