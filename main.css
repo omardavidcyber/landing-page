@@ -91,6 +91,7 @@ nav a {
 }
 main {
     margin-top: 42px;
+    margin-bottom: 72px;
 }
 
 .info {
@@ -126,4 +127,30 @@ main {
     line-height: 1.6;
     font-size: 14px;
     text-align: center;
+}
+
+.gray-background {
+    background-color: #e5e7eb;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    padding: 112px 0;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: left;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    color: #1f2937;
+    font-weight: bold;
+    text-align: right;
 }
